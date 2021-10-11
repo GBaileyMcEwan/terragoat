@@ -18,3 +18,5 @@ jobs:
       with:
         api-key: ${{ secrets.BC_API_KEY }}
         directory: terraform/
+        output_format: cli
+        quiet: true
