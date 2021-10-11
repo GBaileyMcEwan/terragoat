@@ -30,9 +30,9 @@ resource "aws_instance" "web_server_instance" {
   security_groups = ["${aws_security_group.ssh_traffic.name}"]
   tags = {
     Name                 = "bc_workshop_ec2"
-    git_commit           = "ac1418e6729f7762a63516b02c279e8a52c63147"
+    git_commit           = "a91af8b6193bbbb900b359f22f50dcde759e06f4"
     git_file             = "terraform/simple_instance/ec2.tf"
-    git_last_modified_at = "2021-10-11 14:21:21"
+    git_last_modified_at = "2021-10-11 14:30:47"
     git_last_modified_by = "39169795+GBaileyMcEwan@users.noreply.github.com"
     git_modifiers        = "39169795+GBaileyMcEwan"
     git_org              = "GBaileyMcEwan"
