@@ -40,7 +40,7 @@ resource "aws_instance" "web_server_instance" {
     yor_trace            = "c1463827-dc1f-44da-a4d7-a0bf42e3242c"
   }
   ebs_optimized = true
-  monitoring = true
+  monitoring    = true
 }
 
 data "aws_ami" "ubuntu" {
