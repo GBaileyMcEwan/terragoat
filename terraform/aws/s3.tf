@@ -76,12 +76,12 @@ resource "aws_s3_bucket" "operations" {
     Name        = "${local.resource_prefix.value}-operations"
     Environment = local.resource_prefix.value
     }, {
-    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb0"
+    git_commit           = "e2823f33ae1cf969e354ceaa8fcee8ec6525347f"
     git_file             = "terraform/aws/s3.tf"
-    git_last_modified_at = "2020-06-16 14:46:24"
-    git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
+    git_last_modified_at = "2021-10-13 14:01:18"
+    git_last_modified_by = "39169795+GBaileyMcEwan@users.noreply.github.com"
+    git_modifiers        = "39169795+GBaileyMcEwan/nimrodkor"
+    git_org              = "GBaileyMcEwan"
     git_repo             = "terragoat"
     yor_trace            = "29efcf7b-22a8-4bd6-8e14-1f55b3a2d743"
   })
