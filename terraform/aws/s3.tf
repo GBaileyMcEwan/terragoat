@@ -101,12 +101,12 @@ resource "aws_s3_bucket" "data_science" {
   }
   force_destroy = true
   tags = {
-    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb0"
+    git_commit           = "a49f94cf238d3e7efc3f42bb32e518f07482ae0a"
     git_file             = "terraform/aws/s3.tf"
-    git_last_modified_at = "2020-06-16 14:46:24"
-    git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
+    git_last_modified_at = "2021-11-18 07:34:48"
+    git_last_modified_by = "39169795+GBaileyMcEwan@users.noreply.github.com"
+    git_modifiers        = "39169795+GBaileyMcEwan/nimrodkor"
+    git_org              = "GBaileyMcEwan"
     git_repo             = "terragoat"
     yor_trace            = "9a7c8788-5655-4708-bbc3-64ead9847f64"
   }
