@@ -26,7 +26,7 @@ resource "aws_security_group" "ssh_traffic" {
 
 resource "aws_instance" "web_server_instance" {
   ami             = data.aws_ami.ubuntu.id
-  instance_type   = "t2.micro"
+  instance_type   = "t3.micro"
   security_groups = ["${aws_security_group.ssh_traffic.name}"]
   tags = {
     Name                 = "bc_workshop_ec2"
