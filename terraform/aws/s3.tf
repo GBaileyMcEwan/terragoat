@@ -69,19 +69,19 @@ resource "aws_s3_bucket" "operations" {
   bucket = "${local.resource_prefix.value}-operations"
   acl    = "private"
   versioning {
-    enabled = true
+    enabled = false
   }
   force_destroy = true
   tags = merge({
     Name        = "${local.resource_prefix.value}-operations"
     Environment = local.resource_prefix.value
     }, {
-    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb0"
+    git_commit           = "2191f3044a316bf069638be02e0f0b0ebb9eb3d2"
     git_file             = "terraform/aws/s3.tf"
-    git_last_modified_at = "2020-06-16 14:46:24"
-    git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
+    git_last_modified_at = "2022-04-12 11:49:38"
+    git_last_modified_by = "39169795+GBaileyMcEwan@users.noreply.github.com"
+    git_modifiers        = "39169795+GBaileyMcEwan/nimrodkor"
+    git_org              = "GBaileyMcEwan"
     git_repo             = "terragoat"
     yor_trace            = "29efcf7b-22a8-4bd6-8e14-1f55b3a2d743"
   })
